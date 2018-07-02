@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>filealyzer</id>
+    <version>2.0.5.57</version>
+    <title>FileAlyzer</title>
+    <owners>safernetworking</owners>
+    <authors>Safer Networking Ltd.</authors>
+    <projectUrl>https://www.safer-networking.org/products/filealyzer/</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/safernetworking/chocolatey-packages/master/filealyzer/icon.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description><![CDATA[FileAlyzer allows a basic analysis of files (showing file properties and file contents in hex dump form) and is able to interpret common file contents like resources structures (like text, graphics, HTML, media and PE).
+
+![Screenshot of FileAlyzer](https://cdn.rawgit.com/safernetworking/chocolatey-packages/master/filealyzer/screenshot.png)
+
+## Features
+
+FileAlyzer will show the following information for files (if available):
+
+* File name, location, size, date, version and attributes
+* CRC-32, MD5 and SHA-1 checksums
+* PE (Portable Executable) header and sections
+* Import/Export tables
+* Hex dump
+* Image preview (if file is a picture)
+* Text preview (if file is a text file of some sort)
+* INI contents (as structure list)
+* HTML preview (using its own parser)
+* Zip preview
+* Database preview (CSV and dBase files)
+* Media preview (audio or video)
+* ID3 tags
+* RIFF tags
+
+FileAlyzer doesn't need to be configured and will not conflict with other software.
+]]></description>
+    <summary>FileAlyzer is a tool to analyze files</summary>
+    <copyright>© 2003-2011 Safer-Networking Ltd.</copyright>
+    <tags>freeware file analysis hexdump checksum</tags>
+    <packageSourceUrl>https://github.com/safernetworking/chocolatey-packages/tree/master/filealyzer</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
