@@ -20,7 +20,7 @@ environment:
   # Github token to commit pushed packages to repository
   github_user_repo: safernetworking/chocolatey-packages
   github_api_key:
-    secure: 0SxkeDEIRV2u8rM9uRXInbywrpPi29P/0zb29QkLKjNK4MT8eXUbHKej+HJ4szKV #https://ci.appveyor.com/tools/encrypt
+    secure: GOilD5RMjUTylAJ0BWne4Z8IeZWrMes0HxFp+l41Zmt+13jdOi+wbD9ihfHLW0ez #https://ci.appveyor.com/tools/encrypt
 
 
   # Mail credentials - for error notifications
@@ -41,7 +41,7 @@ environment:
 
   # Chocolatey API key - to push updated packages
   api_key:
-    secure: 6OJJ4BOxXSHPj0xVm1cPwMWPUcVoYj1oF1kR7sEQuuvpEw9/BX4Cf5ZSC9PMVZ30 # https://ci.appveyor.com/tools/encrypt
+    secure: 2/jA9CMkcJPZxMHFtYHnKRESmZFgLjHWKcVYpreUMej4ip+mEs4dl0DWLMHxL3I3 # https://ci.appveyor.com/tools/encrypt
 
 init:
 - git config --global user.email "chocolatey@realdimensions.net"
