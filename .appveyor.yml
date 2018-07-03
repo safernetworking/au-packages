@@ -20,7 +20,7 @@ environment:
   # Github token to commit pushed packages to repository
   github_user_repo: safernetworking/chocolatey-packages
   github_api_key:
-    secure: YOUR_GITHUB_API_KEY_HERE_ENCRYPTED_STRING #https://ci.appveyor.com/tools/encrypt
+    secure: 0SxkeDEIRV2u8rM9uRXInbywrpPi29P/0zb29QkLKjNK4MT8eXUbHKej+HJ4szKV #https://ci.appveyor.com/tools/encrypt
 
 
   # Mail credentials - for error notifications
@@ -34,7 +34,7 @@ environment:
 
   # ID of the gist used to save run results - create a gist under the github_user (secret or not) and grab the id - https://gist.github.com/name/id
   # Optional, leave empty to create anonymous gist
-  gist_id:
+  gist_id: 288066f2dc4f6de8951c7a470df92295
 
   # Force test: gist id for test results
   gist_id_test:
