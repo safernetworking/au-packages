@@ -6,7 +6,7 @@
     <version>2.0.5.57</version>
     <title>FileAlyzer</title>
     <owners>safernetworking</owners>
-    <authors>Safer Networking Ltd.</authors>
+    <authors>Safer-Networking Ltd.</authors>
     <projectUrl>https://www.safer-networking.org/products/filealyzer/</projectUrl>
     <iconUrl>https://cdn.rawgit.com/safernetworking/chocolatey-packages/master/filealyzer/icon.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
