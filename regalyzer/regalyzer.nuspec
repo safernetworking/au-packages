@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>regalyzer</id>
+    <version>1.6.2.16</version>
+    <title>RegAlyzer</title>
+    <owners>safernetworking</owners>
+    <authors>Safer-Networking Ltd.</authors>
+    <projectUrl>https://www.safer-networking.org/products/regalyzer/</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/safernetworking/chocolatey-packages/master/regalyzer/icon.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description><![CDATA[RegAlyzer is a tool to browse and change the registry. It was created because of a few features we missed in the original regedit tool, from support for exotic value types over background and regular expression search to better bookmarks, displaying .reg files in the accustomed style and a history view.
+
+![Screenshot of RegAlyzer](https://cdn.rawgit.com/safernetworking/chocolatey-packages/master/regalyzer/screenshot.png)
+
+## Features
+
+* Undo and Redo logs in .reg format
+* Improved search function (results list)
+* Hierarchical bookmark support
+* Jump to key by command line parameter
+* Jump to key by typing/copying it into dialog (instead of browsing)
+* DWord editing with parallel hex/decimal/binary display
+* Support of QWord (64 bit integer)
+* Display of .reg file contents without importing it
+* Support of version 5 files (Unicode) even with Windows 95/NT
+* Low-level display of security settings with option to export it
+]]></description>
+    <summary>RegAlyzer is an advanced registry editor</summary>
+    <copyright>© 2003-2009 Safer-Networking Ltd.</copyright>
+    <tags>freeware registry analysis</tags>
+    <packageSourceUrl>https://github.com/safernetworking/chocolatey-packages/tree/master/regalyzer</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
